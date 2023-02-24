@@ -20,7 +20,7 @@ setup(
 
     packages=['excel_base'],
     py_modules=[],
-    install_requires=['xlwt', 'pytz', 'screen', 'TimeConvert>=1.5.3'],
+    install_requires=['xlwt', 'screen', 'TimeConvert>=1.5.3'],
 
     classifiers=[
         "License :: OSI Approved :: BSD License",
