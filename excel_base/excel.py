@@ -53,7 +53,7 @@ def row_preprocessing(data, mapping):
 
 def data_preprocessing(data, mapping):
     data = data if isinstance(data, list) else [data]
-    return [row_preprocessing(item, mapping) for item in data]
+    return [row_preprocessing(item, mapping) for item in data or [{}]]
 
 
 def get_header_cell_styles(self):
